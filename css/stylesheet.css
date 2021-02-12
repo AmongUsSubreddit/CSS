@@ -457,8 +457,6 @@ body > .content {
 .thumbnail:not(.self):not(.default) {
   border-radius: 2px;
   position: relative;
-  border: 1px solid;
-  border-color: #FFF;
   box-shadow: 0 2px 15px 2px rgba(0,0,0,.1);
   background-color: #000000;
 }
@@ -2135,7 +2133,7 @@ html.res-commentBoxes.res-commentBoxes-rounded .comment.noncollapsed {
   margin: -2px 0 0;
   width: 100%;
   padding: 12px;
-  background: #f9f9f9;
+  background: #000;
   z-index: -1;
   border-radius: 0 0 2px 2px;
   box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0 4px 0 rgba(0,0,0,.12);
@@ -3504,7 +3502,7 @@ body:not(.moderator) .flat-list .customizer {
   background-position: -320px -4px;
 }
 .linkflair-innersloth .thumbnail {
-  box-shadow: 0 0 2px 1px #FFF,0 0 15px #00ff00!important;
+  box-shadow: 0 0 2px 1px #FFF,0 0 15px #2e75b7!important;
   width: 58px;
   height: 56px;
   margin-left: 8px;
@@ -4069,7 +4067,7 @@ html .comment .child .comment {
 }
 .flair-innersloth~.userattrs {
   box-shadow: 0 0 2px 1px #FFF,0 0 15px #2c72b2!important;
-  background-color: #fff!important;
+  background-color: #000!important;
 }
 .tagline .flair {
   display: inline-block;
@@ -4139,7 +4137,7 @@ html .comment .child .comment {
   position: relative;
 }
 .comment .entry > ul .reply-button a {
-  color: rgba(152,171,186,.25);
+  color: #fff;
 }
 .commentarea .thing.collapsed {
   min-height: 24px!important;
