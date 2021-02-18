@@ -1906,11 +1906,6 @@ html.res-commentBoxes.res-commentBoxes-rounded .comment.noncollapsed {
   color: transparent;
   transition: background-color 0.2s cubic-bezier(.4,0,.2,1);
 }
-#NREFloat,
-#image-field,
-#new-link-image-input {
-  display: none!important;
-}
 .comment.collapsed a.expand:hover:after {
   background-color: rgba(0,0,0,.04);
 }
