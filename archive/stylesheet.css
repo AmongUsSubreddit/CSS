@@ -1,0 +1,1134 @@
+/*Discord Sidebar Icon and Link*/
+/*-------------------------------------------*/
+.side .md [href="https://discord.gg/jP6dPF5"]:before {
+	content:' ';
+	background-image:url(%%Discord-button-small%%);
+	background-size:317px 105px;
+	background-repeat:no-repeat;
+	width:320px;
+	height:115px;
+	display:inline-block;
+        transition:400ms;
+}
+.side .md [href="https://discord.gg/jP6dPF5"]:hover {
+	opacity: 0.60;
+        transition:400ms;
+}
+/*-------------------------------------------*/
+/*"not found" display page*/
+/*-------------------------------------------*/
+#noresults.error {
+	visibility:hidden;
+}
+#noresults.error:before {
+	visibility:visible;
+	content:"No tasks here.";
+	margin: 50px;
+}
+
+/*-------------------------------------------*/
+/*FLAIRS*/
+/*-------------------------------------------*/
+
+.flair-flair-mod {
+    background-color: RGBA(34,136,34,0.2);
+    background-position:0 -300px;
+    text-transform:uppercase;
+    font-size:11px;
+    font-weight: bold;
+    -webkit-animation:  mod-flair-color-change 4s ease-in-out infinite;
+    -moz-animation:  mod-flair-color-change 4s ease-in-out infinite;
+    -o-animation: mod-flair-color-change 4s ease-in-out infinite;
+    -ms-animation:  mod-flair-color-change 4s ease-in-out infinite;
+    animation: mod-flair-color-change 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes mod-flair-color-change {
+      0% { color: #228822; }
+     50% { color: #88e188; }
+     100% { color: #228822; }
+}
+@-moz-keyframes mod-flair-color-change {
+      0% { color: #228822; }
+     50% { color: #88e188; }
+     100% { color: #228822; }
+}
+@-ms-keyframes mod-flair-color-change {
+      0% { color: #228822; }
+     50% { color: #88e188; }
+     100% { color: #228822; }
+}
+@-o-keyframes mod-flair-color-change {
+      0% { color: #228822; }
+     50% { color: #88e188; }
+     100% { color: #228822; }
+}
+@keyframes mod-flair-color-change {
+      0% { color: #228822; }
+     50% { color: #88e188; }
+     100% { color: #228822; }
+}
+.flair-flair-special{
+    background-color: RGBA(255,255,255,0.1);
+    background-position:0 -260px;
+    text-transform:uppercase;
+    font-size:11px;
+    font-weight: bold;
+    -webkit-animation: user-flair-color-change 10s linear infinite;
+    -moz-animation: user-flair-color-change 10s linear infinite;
+    -o-animation: user-flair-color-change 10s linear infinite;
+    -ms-animation: user-flair-color-change 10s linear infinite;
+    animation: user-flair-color-change 10s linear infinite;
+}
+
+@-webkit-keyframes user-flair-color-change {
+      0% { color: #6a85a7 }
+     20% { color: #7bad71; }
+     40% { color: #b27233; }
+     60% { color: #855597; }
+     80% { color: #8f4232; }
+    100% { color: #6a85a7; }
+}
+@-moz-keyframes user-flair-color-change {
+      0% { color: #6a85a7 }
+     20% { color: #7bad71; }
+     40% { color: #b27233; }
+     60% { color: #855597; }
+     80% { color: #8f4232; }
+    100% { color: #6a85a7; }
+}
+@-ms-keyframes user-flair-color-change {
+      0% { color: #6a85a7 }
+     20% { color: #7bad71; }
+     40% { color: #b27233; }
+     60% { color: #855597; }
+     80% { color: #8f4232; }
+    100% { color: #6a85a7; }
+}
+@-o-keyframes user-flair-color-change {
+      0% { color: #6a85a7 }
+     20% { color: #7bad71; }
+     40% { color: #b27233; }
+     60% { color: #855597; }
+     80% { color: #8f4232; }
+    100% { color: #6a85a7; }
+}
+@keyframes user-flair-color-change {
+      0% { color: #6a85a7 }
+     20% { color: #7bad71; }
+     40% { color: #b27233; }
+     60% { color: #855597; }
+     80% { color: #8f4232; }
+    100% { color: #6a85a7; }
+}
+/*-------------------------------------------*/
+/*BODY*/
+/*-------------------------------------------*/
+body {
+	font:x-small Arial,Geneva,Tahoma,sans-serif;
+	margin:0px;
+	padding:0px;
+	color:#fff;
+	line-height:18px;
+	background:url(%%galaxy%%) fixed,#000;
+	background-size:cover;
+	background-repeat:repeat-x;
+	-webkit-animation:scroll 500s linear infinite;
+	animation:scroll 500s linear infinite;
+}
+@-webkit-keyframes scroll {
+	from {
+			background-position-x:0;
+	}
+	to {
+			background-position-x:-17800x;
+	}
+}
+@keyframes scroll {
+	from {
+			background-position-x:0;
+	}
+	to {
+			background-position-x: -17800px;
+	}
+}
+
+body .safari_only {
+	font:x-small Arial,Geneva,Tahoma,sans-serif;
+	margin:0px;
+	padding:0px;
+	color:#fff;
+	line-height:18px;
+	background:url(%%galaxy%%) fixed,#000;
+	background-size:cover;
+}
+/*-------------------------------------------*/
+/*HEADER*/
+/*-------------------------------------------*/
+#sr-header-area .sr-list .separator {
+}
+#sr-header-area {
+	background:rgba(0,0,0,.6) !important;
+	border-bottom:2px solid #bcbcbc !important;
+}
+#sr-more-link {
+	background:rgba(0,0,0,0);
+	padding:4px 13px 4px 15px;
+	color:#fff;
+	text-decoration:none;
+	opacity:1;
+	top:30px;
+	right:10px;
+	border-radius:0px;
+	transition:300ms;
+}
+#sr-more-link:hover {
+	opacity:1;
+}
+#sr-header-area .srdrop.dropdown {
+	width:18px;
+	height:18px;
+	position:absolute;
+	line-height:23px;
+	text-indent:-999em;
+	opacity:0.6;
+	cursor:pointer;
+}
+#sr-header-area .srdrop.dropdown:hover {
+	opacity:1;
+}
+#sr-header-area .drop-choices.srdrop {
+	margin-left:0;
+	min-width:130px;
+}
+#sr-header-area .drop-choices {
+	font-size:12px;
+	border:none;
+	padding:2px;
+}
+.drop-choices a.choice {
+	cursor:pointer;
+	padding:2px 3px 1px 3px;
+	display:block
+}
+.drop-choices a.choice:hover {
+	background-color:#fff
+}
+#sr-header-area {
+	opacity:1;
+	height:18px;
+	border-bottom:1px solid #333;
+}
+#sr-header-area .sr-list {
+	margin-top:1px;
+	margin-left:10px;
+}
+.sr-bar a {
+	color:#ccc !important;
+}
+.sr-bar a:hover {
+	opacity:.75;
+	transition:200ms;
+	text-decoration:none !important;
+}
+#header {
+	background:url(%%header1%%) no-repeat;
+	height:183px;
+	border:0px;
+	border-bottom:none;
+}
+#header #header-img {
+	
+	background-size:344px;
+	height:81px;
+	width:55px;
+	margin:29px 0px 0px 76px;
+        Transition:400ms;
+}
+.redditname {
+	padding: 0% 0% 15% 0%;
+}
+/* USERNAME,MESSAGES,PREFERENCES,ETC */
+#header-bottom-right {
+	padding:0 15px 0 15px !important;
+	line-height:15px;
+	background:rgba(0,0,0,1);
+	z-index:3;
+	top:0 !important;
+	bottom:auto !important;
+}
+#header-bottom-right a {
+	color:#ccc;
+	text-decoration:none;
+}
+#header-bottom-right a:hover {
+	color:#fcfcfc;
+}
+#header-bottom-right .user {
+	color:#2e2e2e;
+}
+#header-bottom-right .user .userkarma {
+	color:#e2e2e2;
+	border:none;
+}
+.separator {
+}
+.md code,.md pre {
+	border:none !important;
+	background-color:grey;
+	border-radius: 2px;
+}
+
+/* Reddit Logo */
+/* Among Us Logo */
+/* .pagename{font-family:Arial,Helvetica,Arial,sans-serif;color: white;}/* Among Us Logo */
+.pagename a {
+	transition:250ms;
+	background:url(%%new-logo%%) no-repeat center;
+	background-size:80%;
+	display:block;
+	margin:-108px auto 15px auto;
+	width:1200px;
+	height:125px;
+	display:block;
+	transition:400ms;
+	text-indent:100%;
+	overflow:hidden;
+	opacity:1;
+}
+#header-img:hover,.pagename a:hover {
+	opacity:.5;
+	background-size: 85%;
+}
+
+/*-------------------------------------------*/
+/*NAVIGATION*/
+/*-------------------------------------------*/
+#header-bottom-left .tabmenu {
+	width:100%;
+	border-bottom:2px solid #bcbcbc;
+	border-top:2px solid #bcbcbc;
+	text-align:center;
+	margin-bottom:50px;
+	margin-top:-30px;
+	background:/*url(%%ornamentL%%)39% 2.5px/auto 80%,url(%%ornamentR%%)61% 2.5px/auto 79%,*/rgba(0,0,0,.6);
+	background-repeat:no-repeat;
+	position:inherit;
+}
+#header-bottom-left .tabmenu li {
+	font-weight:normal;
+}
+#header-bottom-left .tabmenu li a[href$="/wiki/"] {
+	display:none;
+	visibility:hidden;
+}
+#header-bottom-left .tabmenu li a {
+	background:none;
+	color:#fff;
+	font-size:14px;
+	font-family:"Arial","Garamond","Constantia","Book Antiqua","Palatino Linotype","Goudy Old Style";
+	text-transform:uppercase;
+	line-height:30px;
+}
+.tabmenu li a:hover {
+	transition:200ms;
+	opacity:.35;
+	text-decoration:none;
+}
+.tabmenu li.selected a {
+	border-bottom:2px solid #fff;
+	color:#797979;
+	text-decoration:none;
+}
+html[lang^="nm"] .tabmenu li.selected a {
+	border-bottom:2px solid #4d6380;
+	color:#797979;
+	text-decoration:none;
+}
+#header-bottom-left .tabmenu li.selected a {
+	background:none;
+	border:0;
+	color:#fff;
+}
+
+.footer {
+	border-image-source:url(%%border%%);
+	border-image-width:50px;
+	border-image-slice:25%;
+	border-image-repeat:round;
+	border-image-outset:3px;
+	padding:15px;
+}
+
+.footer-parent {
+	background:rgba(0,0,0,0.6);
+	border-top:3px solid #bcbcbc;
+	margin-bottom:-41px;
+	padding-top:200px;
+}
+.gold-accent.comment-visits-box {
+	color:#bcbcbc;
+	margin:0px 5px 15px;
+	padding:7px 10px 7px 7px;
+	max-width:550px;
+}
+.gold-accent {
+	margin-top:10px;
+	padding:0 10px 5px;
+	background-color:rgba(0,0,0,0.3);
+		border-image-source:url(%%border%%);
+	border-image-width:50px;
+	border-image-slice:35%;
+	border-image-repeat:round;
+	border-image-outset:3px;
+	padding:15px;
+	color:#9a7d2e;
+	display: inline-block;
+}
+
+/*-------------------------------------------*/
+/*TEXT STYLES (links,Headings,etc)*/
+/*-------------------------------------------*/
+titlebox form.leavemoderator-button:before,.titlebox form.leavecontributor-button:before,.icon-menu .reddit-edit:before,.icon-menu 
+
+.reddit-traffic:before,.icon-menu .reddit-reported:before,.icon-menu .reddit-spam:before,.icon-menu .reddit-ban:before,.icon-menu 
+
+.reddit-flair:before,.icon-menu .reddit-moderators:before,.icon-menu .moderator-mail:before,.icon-menu .reddit-
+
+contributors:before,.giftgold a:before,.gold-form h1.goldgift:before {
+	content:normal !important;
+	display:block;
+	float:none !important;
+	height:auto !important;
+	margin-right:auto !important;
+	width: auto !important;
+}
+/*Approve Button for mods to approve links*/
+.approve-button a {
+	background-color:green;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	color:white !important;
+	padding: 1px 4px !important;
+}
+
+.icon-menu a {
+    background: #ffffff00 none no-repeat scroll center left;
+}
+
+.entry .buttons li.reported-stamp {
+    border: 1px solid black!important;
+    padding: 0 4px;
+    background-color: #f6e69f;
+    color: black;
+}
+
+/*post stuff*/
+#siteTable .thing .entry .title {
+	font-family:Arial,Arial,sans-serif;
+	font-size:18px;
+	color: white;
+}
+/*Approve Button hover*/
+.approve-button a:hover {
+	background-color:#EFEFEF;
+}
+.content .menuarea .drop-choices a.choice:hover {
+	color:#FFF !important;
+	background-color:#27556E !important;
+}
+.content .title .domain a {
+	color:#666 !important;
+}
+.content .title .domain {
+	color:#666 !important;
+}
+.content.md-container {
+	border:none;
+	background:none;
+}
+
+.entry .buttons li a.comments {
+	color:#888;
+}
+body:lang(ds) .content .title a {
+	color:#E2E2E2 !important;
+}
+.tagline .moderator,.green {
+	color: #228822;
+}
+
+/* Article Text Formatting */
+.link .usertext .md {
+	background:rgba(50,50,50,.6);
+	border:1px solid #CDCDCD;
+	padding:0 5px;
+	color:#bcbcbc;
+	padding:10px 15px;
+	font-size:13px !important;
+	line-height:19px;
+}
+h2 {
+	color: black;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td, iframe {
+    font-weight: normal !important;
+}
+
+.md blockquote {
+    color: #808080 !important;
+    background: rgba(0,0,0,.2) !important;
+}
+
+.usertext.border .usertext-body{
+    background: rgba(0,0,0,.5);
+}
+
+.comment.spam>.child, .message.spam>.child {
+    background-color: rgba(0,0,0,0);
+}
+
+.pinnable-content.pinned {
+    background-color: rgb(0,0,0)!important;
+    left: -22px!important;
+}
+
+.spoiler-stamp {
+    color: yellow;
+}
+
+/*Rank Number Style*/
+.rank {
+	display: none;
+}
+/* Visited Article Title Color */
+.thing .title:visited {
+	color: #888888 !important;
+}
+/* Share-Spam Link Styles */
+.flat-list.buttons a {
+	font-weight:bold !important;
+}
+.tagline a {
+	color:#888;
+	font-weight:bold;
+}
+.tagline a:hover {
+	text-decoration:none;
+}
+.entry .buttons li a {
+	color:#888;
+	font-weight:normal;
+}
+.entry .buttons li a:hover {
+	text-decoration:none;
+}
+.flat-list .selected a {
+	color:#B19A63;
+}
+.link .score.likes {
+	color:#e1b13b;
+	text-shadow:0 1px 0 white;
+}
+.link .score.dislikes {
+	color:#8CA2AF;
+}
+.link .score {
+	color:#888;
+	text-align:center;
+}
+.tagline .submitter {
+	background-color:#27556E;
+	color:white;
+	padding:1px;
+}
+.tagline .submitter.moderator {
+	background-color:green !important;
+}
+.userattrs .submitter {
+	background-color:transparent;
+	color:#27556E;
+}
+a.voteWeight {
+	background:none !important;
+	text-decoration: none;
+}
+
+/* .content a:visited,*/
+.side a:visited {
+	color:#888888;
+}
+a {
+	color:#ccc;
+}
+.drop-choices {
+	background:rgba(0,0,0,.9) !important;
+}
+.drop-choices {
+	position:absolute;
+	left:0px;
+	border:1px solid gray;
+	z-index:100;
+	background-color:white;
+	white-space:nowrap;
+	line-height:normal;
+	margin-top:1px;
+	display:none
+}
+.comment .expand:hover {
+	background: none;
+}
+/*SIDEBAR:SUBMIT AND COMMUNITY BUTTONS*/
+/*hides reddit submit buttons*/
+.submit>.morelink {
+	border:none;
+	background:none;
+	font-size:0px;
+}
+.morelink div.nub {
+	display:none;
+}
+.submit-link a {
+	background:url(%%submitlink%%) no-repeat center;
+	background-size:100%;
+	width:325px;
+	height:49px;
+	Transition:300ms;
+	position:absolute;
+	top:-20px;
+	right:-40px;
+	z-index:99;
+}
+.submit-text a {
+	background:url(%%submittext%%) no-repeat center;
+	background-size:100%;
+	width:325px;
+	height:49px;
+	Transition:300ms;
+	position:absolute;
+	top:-15px;
+	right:-40px;
+	z-index:99;
+}
+.submit-text a:hover {
+	opacity:.4;
+	background-size:95%;
+}
+.submit-link a:hover {
+	opacity:.4;
+	background-size:95%;
+}
+div.side div.create {
+}
+.icon-menu a {
+	padding-left:20px;
+}
+.footer a {
+	color:#bcbcbc;
+	transition:200ms;
+}
+.footer a:hover {
+	opacity:0.6;
+	transition: 200ms;
+}
+.linkinfo {
+    border:1px solid #fff;
+    background-color:#000;
+}
+
+/* WARNING MESSAGE WHEN MAKING NEW POSTS (Credit for original code goes to r/falloutmods */
+
+.sidebox.submit:hover:before{
+    position:fixed;
+    display:block;
+    top:0;
+    text-align:center;
+    background:url(%%header-warning%%); /*This is the background banner of the warning message*/
+    color:white; /*Font color*/
+    text-shadow: 0px 0px 5px #000;
+    z-index:1000; /*this ensures the message will always be in front of everything else*/
+    padding-top: 12px;
+    padding-right: 00px;
+    padding-bottom: 17px;
+    padding-left: 00px;
+    width:100%;
+    left:0;
+    font-size:26px;
+    font-weight:regular;
+    content:url(%%warning-text%%)
+}
+
+.sidebox .spacer {
+    background:#000;
+}
+
+/*KONAMI CODE*/
+.res #baconBit {background:url(%%AmongUsGuy%%) no-repeat; /*make sure that your image is a png and that you name it 
+
+img*/height:109px;width:161px}
+.res #baconBit.makeitrain {transform: rotate(1080deg);transition-duration: 7s; /*you can change the duration of the animation here*/}
+
+
+/*-------------------------------------------*/
+/*LAYOUT*/
+/*-------------------------------------------*/
+/* Removal of Spacer Images on the Link Submission Page */
+#newlink .spacer {
+	background:none !important;
+	padding: 0 !important;
+}
+/* Main Content */
+.content {
+	margin-right:375px;
+	margin-left:10px;
+	margin-top:10px;
+	background:rgba(0,0,0,.6);
+	border-image-source:url(%%border%%);
+	border-image-width:50px;
+	border-image-slice:40% fill;
+	border-image-repeat:round;
+	border-image-outset:3px;
+	padding:15px;
+	min-width: 320px;
+}
+/* Main Background for Posts */
+#siteTable .thing .entry {
+	min-height:95px;
+	margin-top:20px;
+}
+#siteTable .stickied.thing .entry {
+	min-height:95px;
+	margin-top:20px;
+}
+.link.last-clicked {
+	border-image-source:url(%%postborder%%);
+	border-image-width:0px 180px 180px 180px;
+	border-image-slice:10% fill;
+	border-image-repeat:round;
+	border-image-outset:3px;
+}
+.link {
+	border-image-source:url(%%postborder%%);
+	border-image-width:0px 180px 180px 180px;
+	border-image-slice:10% fill;
+	border-image-repeat:round;
+	border-image-outset:3px;
+        padding-bottom: 10px;
+}
+.thing.link.stickied a.title,
+.thing.link.stickied li a,
+.thing.link.stickied .entry li .comments {
+	color:#27b062!important
+}
+/* Search Input Box Styling */
+#search input[type="text"] {
+	background:rgba(0,0,0,.6);
+	width:345px;
+	height:60px;
+	color:#bcbcbc;
+	text-align:center;
+	margin-left:10px;
+	font-size:15px;
+	position:absolute;
+	top:193px;
+	right:10px;
+	z-index:99;
+	border-image-source:url(%%border%%);
+	border-image-width:50px;
+	border-image-slice:25%;
+	border-image-repeat:round;
+	border-image-outset:3px;
+	padding:15px;
+}
+#search input[type="submit"] {
+	display:none;
+}
+#search input[type="text"]:focus {
+	outline:none;
+}
+#search {
+	white-space:nowrap;
+	margin-left:50px;
+}
+#searchexpando {
+	margin:5px 0 30px 0px;
+	padding-top:10px;
+	border-radius: 3px;
+}
+/* Search Popdown Boxes and Text Fields on Submit Page - "Limit Searches Box" */
+.infobar {
+	background:rgba(0,0,0,.6);
+	margin-left:50%;
+	text-align:center;
+	position:block;
+	border-image-source:url(%%border%%);
+	border-image-width:40px;
+	border-image-slice:40%;
+	border-image-repeat:round;
+	border-image-outset:3px;
+	padding:15px;
+}
+#siteTable .thing .midcol {
+	margin-right:10px;
+}
+.compressed.thing .midcol {
+	width: 15px !important;
+}
+/*Sidebar*/
+.side {
+	margin-top:80px;
+	background:rgba(0,0,0,0);
+	margin-right:35px;
+	margin-left:20px;
+	padding:0px 25px 50px 5px;
+}
+.side .redditname {
+	visibility:hidden;
+}
+.md {
+	color:#bcbcbc;
+	text-align:left !important;
+	font-weight:bold;
+}
+.md hr {
+	visibility:hidden;
+}
+.titlebox {
+	margin-right:-50px;
+	margin-left:0px;
+	padding:10px 10px 0px 10px;
+	background:rgba(0,0,0,.6);
+	background-repeat:no-repeat;
+	background-position:50% 1%;
+	border-image-source:url(%%border%%);
+	border-image-width:50px;
+	border-image-slice:40% fill;
+	border-image-repeat:stretch;
+	border-image-outset:3px;
+	padding: 15px;
+}
+/* Subscribe Button */
+.titlebox .subscribe-button {
+	display:block;
+	text-align:center;
+	border-image-source:url(%%postborder%%);
+	border-image-width:0px 50px 50px 50px;
+	border-image-slice:5% fill;
+	border-image-repeat:round;
+	border-image-outset:3px;
+	padding:0% 0% 10% 0%;
+}
+.fancy-toggle-button .active {
+	background:none;
+	display:inline-block;
+	width:200px;
+	color:#bcbcbc;
+	text-transform:uppercase;
+	font-size:14px;
+}
+.subscribe-button.toggle .active {
+	display:inline-block;
+	width:197px!important;
+}
+.fancy-toggle-button .add {
+	background:none;
+}
+.fancy-toggle-button .remove {
+	background-color:none;
+}
+.fancy-toggle-button .add:hover,.fancy-toggle-button .remove:hover {
+	opacity:.8;
+}
+.fancy-toggle-button .remove:focus {
+	outline: 0;
+}
+/* Changes the "online" and "subscriber text bits */
+.side .tagline {
+	border-image-source:url(%%postborder%%);
+	border-image-width:0px 50px 50px 50px;
+	border-image-slice:5% fill;
+	border-image-repeat:round;
+	border-image-outset:3px;
+	padding:0% 0% 10% 0% !important;
+	margin:0% 0% 5% 0%!important;
+}
+.titlebox form.toggle,.leavemoderator {
+	background:none;
+}
+.titlebox .toggle {
+	background:none;
+}
+.titlebox {
+	color:#bcbcbc;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+}
+.titlebox .subscribers .word {
+	display:none;
+}
+.titlebox .subscribers .number::after {
+	content:" fans of Among Us";
+}
+.titlebox .users-online .word {
+	display:none;
+}
+.titlebox .users-online .number::after {
+	content:" being pushed out of airlocks";
+}
+.titlebox .users-online::before {
+	display:none;
+}
+.sidecontentbox .content {
+	border-image-source:url(%%border%%);
+	border-image-width:35px;
+	border-image-slice:30%;
+	border-image-repeat:repeat;
+	border-image-outset:3px;
+	padding: 15px;
+}
+
+/*Expander Buttons/Expando (Images,Videos,Text,Etc.)*/
+/*We're pulling multiple images from a single image file*/
+.expando {
+	margin:15px 0;
+}
+a.toggleImage.expando-button {
+	text-decoration:none !important;
+}
+.expando-button.selftext.collapsed {
+	background-image:url(%%spritesheet-a%%);
+	background-position:-1px -136px;
+	background-size:24px;
+}
+.expando-button.selftext.collapsed:hover,.eb-sch {
+	background-image:url(%%spritesheet-a%%);
+	background-position:-1px -109px;
+	background-size:24px;
+}
+.expando-button.selftext.expanded,.eb-se {
+	background-image:url(%%spritesheet-a%%);
+	background-position:-1px -27px;
+	background-size:24px;
+}
+.expando-button.selftext.expanded:hover,.eb-seh {
+	background-image:url(%%spritesheet-a%%);
+	background-position:-1px -0px;
+	background-size:24px;
+}
+.expando-button.video.collapsed {
+	background-image:url(%%spritesheet-a%%);
+	background-position:-1px -82px;
+	background-size:24px;
+}
+.expando-button.video.collapsed:hover,.eb-vch {
+	background-image:url(%%spritesheet-a%%);
+	background-position:-1px -55px;
+	background-size:24px;
+}
+.expando-button.video.expanded,.eb-ve {
+	background-image:url(%%spritesheet-a%%);
+	background-position:-1px -27px;
+	background-size:24px;
+}
+.expando-button.video.expanded:hover,.eb-veh {
+	background-image:url(%%spritesheet-a%%);
+	background-position:-1px -0px;
+	background-size:24px;
+}
+.expando-button.image {
+	background-color: #f7f7f7;
+}
+/*UPVOTE/DOWNVOTE*/
+.arrow.upmod {
+	background-image:url(%%spritesheet-b%%);
+	background-position:-24.5px -46px;
+	background-size:250px;
+}
+.arrow.downmod {
+	background-image:url(%%spritesheet-b%%);
+	background-position:-24.5px -77px;
+	background-size:250px;
+}
+.arrow.up {
+	background-image:url(%%spritesheet-b%%);
+	background-position:-2px -46px;
+	background-size:250px;
+}
+.arrow.down {
+	background-image:url(%%spritesheet-b%%);
+	background-position:-2px -77px;
+	background-size: 250px;
+}
+/*Comments*/
+.sitetable .comment {
+	border:1px solid #CDCDCD !important;
+	position:relative;
+}
+.sitetable .comment,.roundfield,.raisedbox,.linefield {
+	border-color:transparent !important;
+	margin:8px;
+	padding:5px;
+	background:none repeat scroll 0 0 transparent !important;
+	border:1px solid #CDCDCD !important;
+}
+.comment .child {
+	border-left:none;
+	margin-left:15px;
+	margin-top:10px;
+}
+textarea {
+	background:rgba(0,0,0,0.3);
+	color:#bcbcbc;
+	border-image-source:url(%%border%%);
+	border-image-width:50px;
+	border-image-slice:49%;
+	border-image-repeat:round;
+	border-image-outset:3px;
+	padding:15px;
+	margin-left:2px !important;
+}
+textarea:focus {
+	outline:none;
+}
+.new-comment .usertext-body {
+	background-color:rgba(188,188,188,0.1);
+	border: none;
+}
+/*-------------------------------------------*/
+/*FORM STYLES*/
+/*-------------------------------------------*/
+ul.tabmenu.formtab {
+	font-size:100%;
+	padding:0px;
+	margin:0px;
+	line-height:23px;
+}
+ul.formtab li {
+	margin:0px !important;
+	padding:0px !important;
+}
+.tabmenu.formtab a {
+	-moz-border-radius-bottomleft:7px;
+	-moz-border-radius-bottomright:7px;
+	background-color:#aeaeae;
+	border:1px solid #1D1D1D;
+	font-weight:bold;
+	bottom:0;
+	color:black;
+	font-size:11px;
+	padding:10px;
+	line-height:23px;
+	text-transform:uppercase;
+}
+.tabmenu.formtab a:hover {
+	color:white !important;
+}
+.tabmenu.formtab .selected a {
+	background-color:black;
+	color:white !important;
+	font-size:11px !important;
+	border:1px solid #1D1D1D;
+}
+.formtabs-content {
+	border-top: none;
+}
+/*-------------------------------------------*/
+/*RES STYLES*/
+/*-------------------------------------------*/
+.res .entry.RES-keyNav-activeElement,.res .commentarea .entry.RES-keyNav-activeElement .md,.res .entry.RES-keyNav-activeElement .md-
+
+container,.res .commentarea .entry.RES-keyNav-activeElement .noncollapsed {
+	background:rgba(25,57,69,0.15) !important;
+}
+.res .entry.RES-keyNav-activeElement,.res .commentarea .entry.RES-keyNav-activeElement .md,.res .entry.RES-keyNav-activeElement .md-
+
+container,.res .commentarea .entry.RES-keyNav-activeElement .noncollapsed {
+	background:rgba(25,57,69,0.15) !important;
+}
+.res .entry.RES-keyNav-activeElement,.res .commentarea .entry.RES-keyNav-activeElement .md,.res .entry.RES-keyNav-activeElement .md-
+
+container,.res .commentarea .entry.RES-keyNav-activeElement .noncollapsed {
+	background:rgba(25,57,69,0.15) !important;
+}
+.res-commentBoxes .comment .comment, .res-commentBoxes .comment .comment .comment .comment, .res-commentBoxes .comment .comment 
+
+.comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, 
+
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+	background:rgba(25,57,69,0.15) !important;
+}
+.res-commentBoxes .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment, .res-commentBoxes 
+
+.comment .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment {
+	background:rgba(25,57,69,0.15) !important;
+}
+.res-commentBoxes .comment .comment, .res-commentBoxes .comment .comment .comment .comment, .res-commentBoxes .comment .comment 
+
+.comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, 
+
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+	background:rgba(25,57,69,0.15) !important;
+}
+.res-commentBoxes .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment, .res-commentBoxes 
+
+.comment .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment {
+	background:rgba(25,57,69,0.15) !important;
+}
+.res-commentBoxes .comment,.res-commentBoxes .comment .comment,.res-commentBoxes .comment .comment .comment,.res-commentBoxes 
+
+.comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment,.res-commentBoxes .comment 
+
+.comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,.res-
+
+commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment 
+
+.comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment 
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,.res-
+
+commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment 
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment 
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment 
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment 
+
+.comment .comment {
+	background: rgba(25,57,69,0.05) !important;
+}
+/* RES nightmode is trash and totally ruins a lot of the design. You can't overrride it's elements with !important.*/
+.res-nightmode .entry.res-selected,.res-nightmode .entry.res-selected .md-container {
+		background: rgba(1,1,1,0) !important;
+}
+ul.report-reasons {
+    color:#000;
+}
